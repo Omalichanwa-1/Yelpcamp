@@ -23,12 +23,12 @@ const Navbarl=()=>{
         <div className="flex space-x-4 ">
         <div className=""><img src="./Logo.svg" alt="Logo" /></div>
         <div className="hidden md:flex md:space-x-2" >
-        <Link to = '/'> <a href="https://main--yelpcampcodewithomali.netlify.app/" className="hover:text-gray-600">Home</a></Link>
+         <a href="https://main--yelpcampcodewithomali.netlify.app/" className="hover:text-gray-600">Home</a>
         </div>
         </div>
         <div className=" hidden  md:flex md:space-x-2">
-        <Link to = '/Signin'> <a href="http://localhost:5173/Signin"className="hover:text-gray-600">johndoe</a></Link>
-            <a href="http://localhost:5173/Signup" className="hover:text-gray-600 bg-black text-white">Logout</a>
+        <a href="https://main--yelpcampcodewithomali.netlify.app/Signin"className="hover:text-gray-600">johndoe</a>
+            <a href="https://main--yelpcampcodewithomali.netlify.app/Signup" className="hover:text-gray-600 bg-black text-white">Logout</a>
          
         </div>
         <div className="md:hidden flex items-center">
@@ -40,8 +40,8 @@ const Navbarl=()=>{
         </div>
         </div> 
         <div ref={menuRef} className=" md:hidden">
-       <Link to = '/Signin'> <a href="#"className=" block py-">Login</a> </Link>   
-        <a href="#"className=" block py-">Signup</a>   
+        <a href="https://main--yelpcampcodewithomali.netlify.app/Signin"className=" block py-">Login</a>  
+        <a href="https://main--yelpcampcodewithomali.netlify.app/Signup"className=" block py-">Signup</a>   
         </div>  
         </nav>
         </>

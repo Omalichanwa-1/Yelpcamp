@@ -16,7 +16,7 @@ const Searchpage=()=>{
           <div className=" flex  pt-3 pb-3 space-x-3"> 
           <Search/>
           <button className=" bg-black text-white px-2 py-2">Search</button></div>
-          <a href="" className=" underline">Or add your own campground</a>
+          <a href="https://main--yelpcampcodewithomali.netlify.app/" className=" underline">Or add your own campground</a>
           </div>
           <div className=" pt-16">
             <div  className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
