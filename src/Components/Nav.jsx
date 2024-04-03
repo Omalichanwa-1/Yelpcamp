@@ -23,7 +23,7 @@ const Navbar=()=>{
         <div className="flex space-x-4 ">
         <div className=""><img src="./Logo.svg" alt="Logo" /></div>
         <div className="hidden md:flex md:space-x-2" >
-            <a href="http://localhost:5173/" className="hover:text-gray-600">Home</a>
+        <a href="https://main--yelpcampcodewithomali.netlify.app/" className="hover:text-gray-600">Home</a>
         </div>
         </div>
         <div className=" hidden  md:flex md:space-x-2">

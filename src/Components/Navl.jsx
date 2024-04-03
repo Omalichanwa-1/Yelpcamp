@@ -23,11 +23,11 @@ const Navbarl=()=>{
         <div className="flex space-x-4 ">
         <div className=""><img src="./Logo.svg" alt="Logo" /></div>
         <div className="hidden md:flex md:space-x-2" >
-            <a href="http://localhost:5173/" className="hover:text-gray-600">Home</a>
+        <Link to = '/'> <a href="https://main--yelpcampcodewithomali.netlify.app/" className="hover:text-gray-600">Home</a></Link>
         </div>
         </div>
         <div className=" hidden  md:flex md:space-x-2">
-        <a href="http://localhost:5173/Signin"className="hover:text-gray-600">johndoe</a>
+        <Link to = '/Signin'> <a href="http://localhost:5173/Signin"className="hover:text-gray-600">johndoe</a></Link>
             <a href="http://localhost:5173/Signup" className="hover:text-gray-600 bg-black text-white">Logout</a>
          
         </div>
